@@ -1,0 +1,199 @@
+/* Typography */
+.font-heading {
+	font-family: 'Changa One', cursive;
+}
+
+.font-body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* Colors */
+.blue {
+	background-color: #84dbed;
+}
+.blueFont {
+	color: #84dbed;
+}
+.yellow {
+	background-color: #e3bf54;
+}
+.yellowFont {
+	color: #e3bf54;
+}
+.orange {
+	background-color: #f38761;
+}
+.orangeFont {
+	color: #f38761;
+}
+.green {
+	background-color: #82cda7;
+}
+.greenFont {
+	color: #82cda7;
+}
+.purple {
+	background-color: #cf9ed7;
+}
+.purpleFont {
+	color: #cf9ed7;
+}
+.red {
+	background-color: #e9817f;
+}
+.redFont {
+	color: #e9817f;
+}
+.grey {
+	background-color: #5b6365;
+}
+.greyFont {
+	color: #5b6365;
+}
+.whiteFont {
+	color:white;
+}
+
+/* Sections */
+.headerSection {
+	margin-top: -15em;
+	padding-bottom: 25em;
+	padding-top: 15em;
+	background-image: url("../img/doggo.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.headerSection h1 {
+font-family: 'Changa One', cursive;
+	color: white;
+    text-align: center;
+    font-size: 3.9em;
+    background-color: #84dbed;
+    width: 80%;
+    margin: auto;
+    padding: 0.2em;
+}
+
+.mainHeading {
+font-family: 'Changa One', cursive;
+font-size: 38px;
+}
+
+.subtitleHeading {
+	font-size: 26px;
+font-family: 'Changa One', cursive;
+
+}
+
+.aboutSection {
+	padding-top: 2em;
+}
+.aboutImage {
+	width:100%; 
+	border:5px solid #82cda7;
+}
+
+.activitySection {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.callToAction1Section {
+	padding-top: 8em;
+	padding-bottom: 8em;	
+	background-image: url("../img/dog.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.callToAction1Section h2 {
+	text-align: center;
+	color: white;
+	font-family: 'Changa One', cursive;
+	font-size: 38px;
+}
+
+.eventsSection {
+	padding-top: 3em;
+	padding-bottom: 3em;	
+}
+
+.eventImage img{
+	width:100%;
+}
+.eventHeading {
+	background-color: #5b6365;
+	font-family: 'Changa One', cursive;
+
+}
+
+.activityHeading {
+		font-family: 'Changa One', cursive;
+}
+
+.eventHeading h3 {
+	margin: 0!important;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	color: 	white;
+	text-align: center;
+}
+
+.eventDetails {
+	padding: 1em;
+	color: white;
+}
+
+.eventImageContainer {
+	 position: relative;
+}
+
+.eventImageSpan {
+	position: absolute;
+    top: 8px;
+    left: 16px;
+    color: 	white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.contactSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.footerSection {
+	background-color: #5b6365;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.copySection {
+	background-color: #333;
+}
+
+/* Phone view */
+@media screen and (max-width: 767px) {
+
+	.headerSection {
+	margin-top: -15em;
+	padding-bottom: 10em;
+	padding-top: 15em;
+	}
+
+	.aboutImage {
+		margin-top: 2em;
+	}
+
+	.activity {
+		text-align: center;
+	}
+
+}
