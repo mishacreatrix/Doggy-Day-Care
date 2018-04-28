@@ -5,7 +5,7 @@
 [logo]: https://github.com/mishacreatrix/Doggy-Day-Care/blob/master/DoggyDayCarePreview.png "Preview - Doggy Day Care Website"
 
 
-## Date: Jan 2018
+## Date: Dec 2017
 
 ## Project Goal:
 
